@@ -1,0 +1,59 @@
+td, table, select,  input, textarea{
+	font-family:arial;
+	font-size:9px;
+	font-weight:bold;
+	vertical-align:top;
+	line-height:11px;
+	color:#626E71;
+}
+
+form { margin:0px; padding:0px}
+body { margin:0px; padding:0px; background-color:#272B2C}
+
+.footer { color:#757A7B; margin-left:39px; text-transform:uppercase}
+.footer  a{ color:#F1B000; text-decoration:none}
+.footer  a:hover{ text-decoration:underline}
+
+span { color:#F1B000}
+
+span a{ color:#F1B000; text-decoration:underline}
+span a:hover{ text-decoration:none}
+
+strong { color:#F1B000; text-transform:uppercase}
+
+a{ color:#FFFFFF; text-decoration:none}
+a:hover{ text-decoration: underline}
+
+.list ul{margin:0px; padding:0px; list-style:none; line-height:18px}
+.list ul li a{ color:#626E71;  text-decoration:underline}
+.list ul li a:hover{ text-decoration:none}
+
+.list1 ul{margin:0px; padding:0px; list-style:none; line-height:18px}
+.list1 ul li a{ color:#F1B000;  text-decoration:underline}
+.list1 ul li a:hover{ text-decoration:none}
+
+
+.form1 input{
+	width:217px;
+	height:25px;
+	color: #626E71;
+	text-transform:none;
+	padding:7px 0 0 8px;
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	background-color:#FFFFFF
+}
+
+
+.form1 textarea {
+	width:217px;
+	height:105px;
+	color: #626E71;
+	overflow:hidden;
+	padding:7px 0 0 8px;
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	background-color:#FFFFFF
+}
