@@ -20,9 +20,9 @@ $(function() {
 		BGMap					= (function() {
 			var map,
 				$mapEl		= $('#map'),
-				address		= 'Fondamenta Beata Giuliana 4, Venezia',
-				lat			= 45.428688849691014,
-				lng			= 12.317744493484497,
+				address		= 'Via Don Giovanni Verita n.13 ',
+				lat			= 45.50104,
+				lng			= 9.15573,
 				display		= false,
 				
 				showMap		= function() {
