@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<META content="IE=10.000" http-equiv="X-UA-Compatible">
+<TITLE>Our love web</TITLE>	 
+<META http-equiv="content-type" content="text/html; charset=UTF-8">	 
+<META name="GENERATOR" content="MSHTML 10.00.9200.16660">
+<title> hello </title>
+<STYLE type="text/css">
+		@font-face{
+			font-family: wordeot;
+			src: url('wordeot.eot');
+		}
+	</STYLE>
+
+<STYLE type="text/css">
+		@font-face{
+			font-family: word;
+			src: url('word.ttf') format("truetype");
+		}
+	</STYLE>
+
+<STYLE type="text/css">
+		@font-face{
+			font-family: output;
+			src: url('output.eot');
+		}
+	</STYLE>
+
+<STYLE type="text/css">
+		@font-face{
+			font-family: outputdigit;
+			src: url('digital-7_mono.eot');
+		}
+	</STYLE>
+
+<STYLE type="text/css">
+		@font-face {
+			font-family: digit;
+			src: url('digital-7_mono.ttf') format("truetype");
+		}
+	</STYLE>
+
+<STYLE type="text/css">
+		@font-face{
+			font-family: penstyle;
+			src: url('penstyle.ttf') format("truetype");
+		}
+	#mainDiv #copyright p {
+	font-size: 36px;
+}
+#mainDiv #copyright p {
+	color: #3C0;
+}
+</STYLE>
+<LINK rel="stylesheet" type="text/css" href="MyLove_files/default.css">
+<SCRIPT type="text/javascript" src="MyLove_files/jquery.js"></SCRIPT>
+
+<SCRIPT type="text/javascript" src="MyLove_files/garden.js"></SCRIPT>
+
+<SCRIPT type="text/javascript" src="MyLove_files/functions.js"></SCRIPT>
+
+<META name="GENERATOR" content="MSHTML 9.00.8112.16476"></HEAD>
+<BODY>
+
+<DIV id="mainDiv">
+<DIV id="content">
+<DIV id="code">上 邪<BR>				我 欲 与 君 相 知<BR>				长 命 无 绝 衰<BR>				山 无 棱<BR>				江 水 为 
+竭<BR>				冬 雷 震 震<BR>				夏 雨 雪<BR>				天 地 合<BR>				乃 敢 与 君 绝<BR><BR>——致 亲 爱 的 段 晓 莺
+<BR><SPAN class="sign"> Yours Sincerely, BingquanLiu</SPAN><BR></DIV>
+<DIV id="loveHeart"><CANVAS id="garden"></CANVAS>
+<DIV id="words">
+<DIV id="messages">						Dear, We get together for						
+<DIV id="elapseClock"></DIV></DIV>
+<DIV id="loveu">						I love you forever					</DIV></DIV></DIV></DIV>
+<DIV id="copyright">			Copyright © 2013 <A 
+href="http://761331718.qzone.qq.com/">亲爱的宝贝</A>all rights reserved		
+<p><embed src="http://www.xiami.com/widget/25023527_3384799,_235_346_FF8719_494949_1/multiPlayer.swf" type="application/x-shockwave-flash" width="235" height="346" wmode="opaque"></embed>
+</p>
+<p>
+请寿星老婆点击图片：</p><p>
+<a href="/happybirthday/present.html">
+<img src="http://img2.duitang.com/uploads/item/201201/03/20120103161520_wsyWn.thumb.600_0.jpg" />
+</a>
+</p></DIV></DIV>
+<SCRIPT type="text/javascript">
+	(function(a) {
+			 a.fn.typewriter = function(speed) {
+				 this.each(function() {
+					 var d = a(this),
+					 c = d.html(),
+					 b = 0;
+					 d.html("");
+					 var e = setInterval(function() {
+						 var f = c.substr(b, 1);
+						 if (f == "<") {
+							 b = c.indexOf(">", b) + 1
+						 } else {
+							 b++
+						 }
+						 d.html(c.substring(0, b) + (b & 1 ? "_": ""));
+						 if (b >= c.length) {
+							 clearInterval(e)
+						 }
+					 },
+					 speed)
+				 });
+				 return this;
+			 }
+		 })(jQuery);
+	</SCRIPT>
+
+<SCRIPT type="text/javascript">
+		var offsetX = $("#loveHeart").width() / 2;
+		var offsetY = $("#loveHeart").height() / 2 - 55;
+		var together = new Date();
+		together.setFullYear(2010, 8, 13);
+		together.setHours(19);
+		together.setMinutes(31);
+		together.setSeconds(4);
+		together.setMilliseconds(0);
+		
+		if (!document.createElement('canvas').getContext) {
+			var msg = document.createElement("div");
+			msg.id = "errorMsg";
+			msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+			document.body.appendChild(msg);
+			$("#code").css("display", "none")
+			$("#copyright").css("position", "absolute");
+			$("#copyright").css("bottom", "10px");
+		    document.execCommand("stop");
+		} else {
+			adjustCodePosition();
+			$("#code").typewriter(180);
+			
+			setTimeout(function () {
+				startHeartAnimation();
+			}, 20000);
+
+			timeElapse(together);
+			setInterval(function () {
+				timeElapse(together);
+			}, 300);
+		}
+	</SCRIPT>
+</BODY></HTML>
